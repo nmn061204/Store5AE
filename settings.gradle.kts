@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "list view advance"
+rootProject.name = "Codibook - Daily Tips"
 include(":app")
  

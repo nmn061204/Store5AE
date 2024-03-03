@@ -36,13 +36,15 @@ SanPhamAdapter sanPhamAdapter;
     }
 
     private void loadData() {
-        sanPhamAdapter.add(new SanPham(R.drawable.meo3,"Hình meo 1",10,5000));
-        sanPhamAdapter.add(new SanPham(R.drawable.sp1,"Hình meo 2",20,52000));
-        sanPhamAdapter.add(new SanPham(R.drawable.meo4,"Hình meo 3",30,53000));
-        sanPhamAdapter.add(new SanPham(R.drawable.sp3,"Hình meo 4",40,5040));
-        sanPhamAdapter.add(new SanPham(R.drawable.meo5,"Hình meo 5",50,50100));
-        sanPhamAdapter.add(new SanPham(R.drawable.meo3,"Hình meo 6",20,2000));
-        sanPhamAdapter.add(new SanPham(R.drawable.meo3,"Hình meo 7",80,10000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh1,"dangosister",10,300.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh2,"Another TWEE",20,520.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh3,"Wonderwonder",30,530.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh4,"Couple",40,900.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh5,"byclothes",50,102.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh6,"girtbiuty",20,450.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh7,"ccomeng",80,100.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh8,"thegirl",80,200.000));
+        sanPhamAdapter.add(new SanPham(R.drawable.anh9,"Hey lady",80,700.000));
 
     }
 
