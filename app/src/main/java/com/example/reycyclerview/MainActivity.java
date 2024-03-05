@@ -30,10 +30,6 @@ ArrayList<Function> arr_Function;
         arr_Function.add(new Function(R.drawable.heart,"Like"));
         arr_Function.add(new Function(R.drawable.cart,"My Orders"));
         arr_Function.add(new Function(R.drawable.setting,"Setting"));
-
-
-
-
     }
 
     private void addControls() {
@@ -41,10 +37,9 @@ ArrayList<Function> arr_Function;
         arr_Function = new ArrayList<>();
         functionAdapter =new FunctionAdapter(this, arr_Function);
         recyclerViewFunction.setAdapter(functionAdapter);
-      //  GridLayoutManager gridLayoutManager= new GridLayoutManager(this,3);
+      // GridLayoutManager gridLayoutManager= new GridLayoutManager(this,3);
        // recyclerViewNV.setLayoutManager(new LinearLayoutManager(this));
         StaggeredGridLayoutManager staggeredGridLayoutManager= new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL);
-
         recyclerViewFunction.setLayoutManager(staggeredGridLayoutManager);
     }
 }
